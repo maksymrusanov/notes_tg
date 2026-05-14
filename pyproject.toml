@@ -1,0 +1,11 @@
+[project]
+name = "tg-notes"
+version = "0.1.0"
+description = "telegram bot for saving notes"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiogram>=3.28.2",
+    "dotenv>=0.9.9",
+    "psycopg[binary]>=3.3.4",
+]
