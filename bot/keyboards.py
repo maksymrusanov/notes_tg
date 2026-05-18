@@ -11,7 +11,6 @@ general_actions = InlineKeyboardMarkup(
 note_actions = InlineKeyboardMarkup(
     inline_keyboard=[
         [InlineKeyboardButton(text="Mark as done", callback_data="mark_done")],
-        [InlineKeyboardButton(text="Set time", callback_data="set_time")],
         [InlineKeyboardButton(text="Delete", callback_data="Delete")],
         [InlineKeyboardButton(text="Back", callback_data="Back")],
     ]
