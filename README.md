@@ -12,9 +12,8 @@ A Telegram bot designed for personal note-taking and management directly within 
 
 ## Features
 *   **Asynchronous Processing:** Built with `aiogram` for high-performance, non-blocking operations.
-*   **Persistent Storage:** Utilizes SQLite for reliable note persistence.
+*   **Persistent Storage:** Utilizes Postgres for reliable note persistence.
 *   **Note Management:** Capability to add and store text notes via chat commands.
-*   **Async Database Integration:** Uses `aiosqlite` to ensure the bot remains responsive during database I/O operations.
 
 ## Installation
 
