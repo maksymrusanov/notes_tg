@@ -8,7 +8,7 @@ A Telegram bot designed for personal note-taking and management directly within 
 ## Tech Stack
 *   **Language:** Python 3.x
 *   **API Framework:** `aiogram` (Asynchronous Telegram Bot API wrapper)
-*   **Database:** `aiosqlite` (Asynchronous interface for SQLite)
+*   **Database:** `Postgres` (Asynchronous interface for SQLite)
 
 ## Features
 *   **Asynchronous Processing:** Built with `aiogram` for high-performance, non-blocking operations.
